@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sbt {
+    width: 50px;
+  }
+
+  input {
+      margin: 10px;
+  }
