@@ -1,13 +1,113 @@
-.form {
+/* font-family: 'Gothic A1', sans-serif; */
+  body {
+    font-family: 'Gothic A1', sans-serif;
+    background-color: #f9f9f9;
+    font-weight: 900;
+  }
+  .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:100%;
+    height:auto;
+    background-color:white; 
+    width: 80%;
+    height: 75%;
+    text-align:center;
+    margin: 5% 10% 10px 10%;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 133px -33px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 133px -33px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 133px -33px rgba(0,0,0,0.75);
   }
   .sbt {
-    width: 50px;
+    padding-top: 5px;
+    font-weight: 900;
+    font-family: 'Gothic A1', sans-serif;
+    width: 100px;
+    height: 25px;
+    background-color: #3084d5;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 25px;
+    border-color: #3084d5;
   }
+  .sbt:hover {
+    background-color: white;
+    color: #3084d5;
+    border: 2px #3084d5 solid;
+  }
+  .sbt:focus {
+    outline: none;
+  }
+  .rst {
+    padding-top: 5px;
+    font-weight: 900;
+    font-family: 'Gothic A1', sans-serif;
+    width: 100px;
+    height: 25px;
+    background-color: #f6931e;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 25px;
+    border-color: #f6931e
 
+  }
+  .rst:hover {
+    background-color: white;
+    color: #f6931e;
+    border: 2px #f6931e solid;
+  }
+  .rst:focus {
+    outline: none;
+  }
   input {
-      margin: 10px;
+    width:175px;
+    margin-top: 5px;
+    border-radius: 25px;
+    height: 20px;
+    border: #3084d5 1px solid;
+    text-align: center;
+  }
+  input:focus {
+    outline: none;
+  }
+  .flex {
+    display:flex;
+    flex-direction: row;
+  }
+  .imgtop {
+    width: 100%;
+    height: auto;
+  }
+  .imgleft {
+    width:100%;
+    height: auto;
+  }
+  .right {
+    width: 100%;
+    height: auto;
+    background-color: #f9f9f9;
+  }
+  .left {
+    width:33%;
+  }
+  h1 {
+    font-size: 2em;
+    color:#4d4747;
+    text-align: center;
+  }
+  h5 {
+    font-size: .7em;
+    font-weight: 300;
+    color:#4d4747;
+    text-align: center;
+  }
+  label {
+    margin-top: 20px;
+    color:#4d4747;
+  }
+  .title {
+    height: 10%;
   }

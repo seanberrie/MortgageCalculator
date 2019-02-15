@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:200,300,600,700,800,900" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,16 +10,31 @@
   <title>Mortgage Calculator</title>
 </head>
 <body>
-    <div>
-        <form class="form">
+    <div class="top">
+      <img class="imgtop" src="https://i.imgur.com/56hfHHI.png">
+    </div>
+    <div class="flex">
+      <div class="left">
+        <img class="imgleft"src="https://i.imgur.com/GXq4kdi.png">
+      </div>
+      <div class="right">
+        <div class="title">
+          <h5>Check what your estimate might be for your purchase?</h5>
           <h1>Mortgage Calculator</h1>
-          <label>Loan Amount: <input type="text" id="loan" name="Loan" /></label>
-          <label>APR%: <input type="text" id="apr" name="APR" /></label>
-          <label>Loan Term in Years: <input type="text" id="term" name="Term" /></label>
-          <input type="button" class="sbt" id="submit" value="Submit" />
-          <label>This is your monthly payment: <input type="text" id="payment" name="payment" />
-          <input type="reset" value="Clear" />
-        </form>
+        </div>
+          <form class="form">
+            <label>Loan Amount</label>
+            <input type="text" class="ipt" id="loan" name="Loan" placeholder="$1,000,000" />
+            <label>APR%</label>
+            <input type="text" class="ipt" id="apr" name="APR" placeholder="6.5%" />
+            <label>Loan Term in Years</label>
+            <input type="text" class="ipt" id="term" name="Term" placeholder="20 years"/>
+            <input type="button" class="sbt" id="submit" value="Submit" />
+            <label>This is your monthly payment: </label>
+            <input type="text" class="ipt" id="payment" name="payment" placeholder="Your Monthly Payment" />
+            <input class="rst" type="reset" value="Clear" />
+          </form>
+        </div>
       </div>
 </body>
 </html>
